@@ -266,8 +266,56 @@
                         </div>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center">
-                        <button type="button" class="btn btn-outline-info bg-info text-white fw-semibold">Register
-                            Now</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn fw-semibold btn-bg" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Register Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Register Here</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control"
+                                                aria-label="Text input with dropdown button">
+                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item" href="#">Fundamental Of UI/UX Design</a></li>
+                                                <li><a class="dropdown-item" href="#">Javascript Basic to advanced</a></li>
+                                                <li><a class="dropdown-item" href="#">Fullstack Web Development</a></li>
+                                                <li>
+                                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                                <li>
+                                                <li><a class="dropdown-item" href="#">Photography Basic Rules</a></li>
+                                                <li>
+                                                <li><a class="dropdown-item" href="#">Motion Graphics</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
